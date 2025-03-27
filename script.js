@@ -611,18 +611,18 @@ function createJobSatisfactionPrediction() {
                         <tbody>
                             <tr class="border-b">
                                 <td class="px-4 py-3">Random Forest</td>
-                                <td class="px-4 py-3">26.9%</td>
-                                <td class="px-4 py-3">24.6%</td>
-                                <td class="px-4 py-3">26.9%</td>
-                                <td class="px-4 py-3">24.3%</td>
+                                <td class="px-4 py-3">26.7</td>
+                                <td class="px-4 py-3">23.5%</td>
+                                <td class="px-4 py-3">26.7%</td>
+                                <td class="px-4 py-3">24.07%</td>
                                 <td class="px-4 py-3"><span class="bg-red-100 text-red-800 text-xs px-2 py-1 rounded">Baseline</span></td>
                             </tr>
                             <tr class="border-b">
                                 <td class="px-4 py-3">Gradient Boosting</td>
-                                <td class="px-4 py-3">25.8%</td>
-                                <td class="px-4 py-3">22.5%</td>
-                                <td class="px-4 py-3">25.8%</td>
-                                <td class="px-4 py-3">23.3%</td>
+                                <td class="px-4 py-3">25.73%</td>
+                                <td class="px-4 py-3">22.02%</td>
+                                <td class="px-4 py-3">25.73%</td>
+                                <td class="px-4 py-3">23.11%</td>
                                 <td class="px-4 py-3"><span class="bg-red-100 text-red-800 text-xs px-2 py-1 rounded">Underperforming</span></td>
                             </tr>
                             <tr class="border-b">
@@ -636,18 +636,18 @@ function createJobSatisfactionPrediction() {
                             <tr class="border-b bg-green-50">
                                 <td class="px-4 py-3 font-medium">KNN</td>
                                 <td class="px-4 py-3 font-medium">27.3%</td>
-                                <td class="px-4 py-3 font-medium">27.8%</td>
+                                <td class="px-4 py-3 font-medium">27.1%</td>
                                 <td class="px-4 py-3 font-medium">27.3%</td>
                                 <td class="px-4 py-3 font-medium">27.3%</td>
-                                <td class="px-4 py-3"><span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Best Model</span></td>
+                                <td class="px-4 py-3"><span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded"></span>Experimental</td>
                             </tr>
                             <tr class="border-b">
                                 <td class="px-4 py-3">Neural Network</td>
-                                <td class="px-4 py-3">25.1%</td>
-                                <td class="px-4 py-3">24.7%</td>
-                                <td class="px-4 py-3">25.1%</td>
-                                <td class="px-4 py-3">24.8%</td>
-                                <td class="px-4 py-3"><span class="bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded">Experimental</span></td>
+                                <td class="px-4 py-3">28.1%</td>
+                                <td class="px-4 py-3">27.58%</td>
+                                <td class="px-4 py-3">28.1%</td>
+                                <td class="px-4 py-3">27.78%</td>
+                                <td class="px-4 py-3"><span class="bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded">Best Model</span></td>
                             </tr>
                         </tbody>
                     </table>
@@ -864,7 +864,7 @@ function createJobSatisfactionPrediction() {
                 <div class="bg-blue-50 rounded-lg p-6">
                     <h4 class="text-lg font-medium mb-4">Interpretation of KNN Results</h4>
                     <p class="text-gray-700 mb-4">
-                        While the KNN model achieved the highest F1 score of 27.3% among tested models, 
+                        While the Neural Network model achieved the highest F1 score of 27.78% among tested models, 
                         the performance indicates significant challenges in predicting job satisfaction 
                         accurately from the available features.
                     </p>
@@ -889,7 +889,7 @@ function createProjectConclusion() {
                 <h3 class="text-xl font-semibold mb-4">Key Findings</h3>
                 <ul class="list-disc pl-6 space-y-3 text-gray-700 mb-6">
                     <li>The salary hike prediction model achieved strong performance (R² = 0.6153) with performance rating and job level being the most important factors</li>
-                    <li>Job satisfaction prediction reached 27.3% accuracy (KNN model), with work-life balance and manager relationship as top influencers</li>
+                    <li>Job satisfaction prediction reached 28.1% accuracy (Neural Network model), with work-life balance and manager relationship as top influencers</li>
                     <li>Employee segmentation revealed three distinct groups with different satisfaction levels and characteristics</li>
                 </ul>
                 
