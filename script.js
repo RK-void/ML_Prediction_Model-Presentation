@@ -706,7 +706,7 @@ function createJobSatisfactionPrediction() {
                             </div>
                         </div>
                         
-                        <h3 class="text-xl font-medium mb-4">KNN Confusion Matrix</h3>
+                        <h3 class="text-xl font-medium mb-4">Neural Network Confusion Matrix</h3>
                         <div class="bg-white p-4 rounded-lg border">
                             <img src="images/knn_confusion_matrix.png" alt="KNN Confusion Matrix" class="w-full h-auto mb-4">
                             <h4 class="font-medium mb-2">Key Insights:</h4>
