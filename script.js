@@ -853,7 +853,7 @@ function createJobSatisfactionPrediction() {
                     </div>
                     <div class="text-center">
                         <p class="text-gray-700 mb-2">
-                            Predicted Satisfaction: <span class="font-medium">2 (Medium)</span> with <span class="font-medium">72% confidence</span>
+                            Predicted Satisfaction: <span class="font-medium">2 (Medium)</span> with <span class="font-medium">79.85% confidence</span>
                         </p>
                         <p class="text-sm text-gray-600">
                             This employee is in the "Stable Contributors" segment.
